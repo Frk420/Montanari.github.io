@@ -59,8 +59,20 @@ ul li:last-child {
   }
 }
 
-.instagram-icon img,
-.whatsapp-icon img,
+.instagram-icon img {
+  width: 50px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.whatsapp-icon img {
+  width: 50px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .email-icon img {
   width: 50px;
   height: 40px;
@@ -252,6 +264,30 @@ header {
     margin-right: 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   }
+}
+
+#us {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f7b731;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+#us::before, #us::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  margin: 30px auto;
+  background-color: #ccc;
+}
+#us::before {
+  margin-bottom: 30px;
+}
+#us::after {
+  margin-top: 30px;
 }
 
 label {
